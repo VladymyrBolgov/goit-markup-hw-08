@@ -676,6 +676,12 @@ img {
   padding-bottom: 0;
 }
 
+@media screen and (max-width: 767px) {
+  .section__directions {
+    display: none;
+  }
+}
+
 .section__title {
   color: var(--title-text-color);
   font-weight: 700;
