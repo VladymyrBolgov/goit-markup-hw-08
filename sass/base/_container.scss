@@ -4,9 +4,26 @@
     margin: 0 auto;
 }*/
 .container{
-    width: 450px;
     padding-left: 15px;
     padding-right: 15px;
+}
+//480+
+@media screen and (min-width: 480px) {
+    .container{
+    width: 450px;
     margin-left: auto;
     margin-right: auto;
+}
+}
+//768+
+@media screen and (min-width: 768px) {
+    .container{
+    width: 736px;
+}
+}
+//1200+
+@media screen and (min-width: 1200px) {
+    .container{
+    width: 1200px;
+}
 }
