@@ -19,6 +19,8 @@
             <div class="container header__container"> 
                 <nav class="navigation">
                     <a class="logo" href="./index.html" lang="en">Web<span class="logo__color">Studio</span> </a>
+
+                    <!--nav-list и contact должен появится от 768 и до десктопа контакты в столбик-->
                     <ul class="nav-list">
                         <li class="nav-list__item">
                             <a href="" class="nav-list__link nav-list__link--current">Студия</a>
@@ -31,14 +33,30 @@
                         </li>
                     </ul>
                 </nav> 
-
-               <!--<button type="button" class="mobile-menu-btn" aria-expanded="false" data-menu-open>
+                <ul class="contact">
+                    <li class="contact__item">
+                        <a href="mailto:info@devstudio.com" class="contact__link">
+                        <svg class="contact__icon"  width="16"  height="12">
+                            <use href="./images/icon/symbol-defs.svg#icon-envelope"></use>
+                        </svg>
+                             info@devstudio.com</a>
+                    </li> 
+                    <li class="contact__item ">
+                        <a href="tel:+380961111111" class="contact__link" > 
+                            <svg class="contact__icon" width="10"  height="16">
+                                <use href="./images/icon/symbol-defs.svg#icon-smartphone"></use>
+                            </svg>   
+                             +38 096 111 11 11</a>
+                    </li>
+                </ul>
+                <!--мобильная версия 480-->
+                <button type="button" class="mobile-menu-btn" aria-expanded="false" data-menu-open>
                     <svg class="mobile-menu-btn__icon"  width="40"  height="40"
                         aria-label="Переключатель мобильного меню">
                         <use href="./images/icon/symbol-defs.svg#burger-menu-icon"></use>
                     </svg>
                 </button>
-
+                <!--скрытое меню-->
                 <div class="mobile-menu" data-menu>
                     <div class="container mobile-menu__container">
                       <button type="button" class="mobile-menu__close-btn" data-menu-close>
@@ -74,35 +92,33 @@
                                  +38 096 111 11 11</a>
                         </li>
                     </ul>
-                </div>-->
-
-                
-                    <ul class="contact">
-                        <li class="contact__item">
-                            <a href="mailto:info@devstudio.com" class="contact__link">
-                            <svg class="contact__icon"  width="16"  height="12">
-                                <use href="./images/icon/symbol-defs.svg#icon-envelope"></use>
-                            </svg>
-                                 info@devstudio.com</a>
-                        </li> 
-                        <li class="contact__item ">
-                            <a href="tel:+380961111111" class="contact__link" > 
-                                <svg class="contact__icon" width="10"  height="16">
-                                    <use href="./images/icon/symbol-defs.svg#icon-smartphone"></use>
-                                </svg>   
-                                 +38 096 111 11 11</a>
-                        </li>
-                    </ul>
+                    <div class="">
+                        <ul class="list">
+                            <li>
+                                <a class="link" href="">Instagram</a>
+                            </li>
+                            <li>
+                                <a class="link" href="">Twitter</a>
+                            </li>
+                            <li>
+                                <a class="link" href="">Facebook</a>
+                            </li>
+                            <li>
+                                <a class="link" href="">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>   
             </div>
         </header>
         <main>
             <!--BOX-->
-            <section  class="box">
+            <!-- <section  class="box">
                 <h1 class="box-title">Эффективные решения<br>для вашего бизнеса</h1>
                 <button type="button" class="box-button" data-modal-open>Заказать услугу</button>   
-            </section>
+            </section>-->
             <!--ПРЕТМУЩЕСТВА-->
-            <section class="section">
+            <!--<section class="section">
                 <div class="container"> 
                     <h2 class="visually-hidden" visually-hidden> Наши преимущества</h2>
                     <ul class="benefits-list">
@@ -152,9 +168,9 @@
                         </li>
                     </ul>
                 </div> 
-            </section>   
+            </section>   -->
             <!--Чем мы занимаемся-->
-            <section class="section section__directions">
+             <!--<section class="section section__directions">
                 <div class="container">
                     <h2 class="section__title">Чем мы занимаемся</h2>
                     <ul class="directions-list"> 
@@ -179,10 +195,10 @@
                         </li>
                      </ul>
                  </div>
-            </section>   
+            </section>-->   
             <!--Наша команда-->
 
-                <section class="section section__team">
+                <!--<section class="section section__team">
                     <div class="container"> 
                         <h2 class="section__title">Наша команда</h2>
                         <ul class="team-list">
@@ -190,9 +206,9 @@
                                 <img src="./images/productdesigner.jpg" alt="Фото Игоря Демьяненко" width="270" height="260">
                                 <div class="team-list__container">
                                     <h3 class="team-list__title">Игорь Демьяненко</h3>
-                                    <p class="team-list__text">Product Designer</p>
+                                    <p class="team-list__text">Product Designer</p>-->
             <!-- Иконки соцсетей-->
-                                    <ul class="social-list">
+                                   <!-- <ul class="social-list">
                                         <li class="social-list__item" > 
                                             <a class="social-list__link" href="">
                                             <svg class="social-list__icon" width="20"  height="20">
@@ -338,10 +354,10 @@
                             </li>
                         </ul>   
                     </div> 
-                </section>   
+                </section> -->  
             <!--Постоянные клиентые-->
 
-                <section class="section">
+                <!--<section class="section">
                     <div class="container">
                         <h2 class="section__title">Постоянные клиентые</h2>
                         <ul class="clients-list"> 
@@ -389,10 +405,10 @@
                             </li>   
                          </ul>
                      </div>
-                </section>   
+                </section> -->  
         </main>
         <!--footer-->
-        <footer class="footer">
+        <!--<footer class="footer">
             <div class="footer-container container"> 
                 <div class="footer-position">
                     <a class="footer-logo"  href="./index.html" lang="en" >Web<span class="footer-color">Studio</span></a> 
@@ -446,7 +462,6 @@
                     </ul>
                 </div>
 
-        <!-- 6 дз футер-->
                 <div class="subscribe">
                     <h3 class="subscribe-title">подпишитесь на рассылку</h3>
                     <form class="subscribe-form">
@@ -465,7 +480,7 @@
 
                 </div>
             </div> 
-        </footer>
+        </footer>-->
 
 <!--модалное окно-->
         <div class="backdrop is-hidden" data-modal>
