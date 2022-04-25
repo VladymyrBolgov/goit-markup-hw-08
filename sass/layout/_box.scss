@@ -12,12 +12,12 @@
         height: 400px;
         background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4),
          rgba(47, 48, 58, 0.4)),
-        url(../images/officebackground0-767\ .jpg);
+        url(/images/officebackground0-767.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         background-color: #2F303A;
-    }
+    }   
     .box-title {
         width: 360px;
         margin-bottom: 30px;
@@ -66,7 +66,7 @@
             height: 400px;
             background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4),
              rgba(47, 48, 58, 0.4)),
-            url(../images/officebackground768\ .jpg);
+            url(/images/officebackground768.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -120,12 +120,12 @@
                 max-width: 1600px;
                 background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4),
                  rgba(47, 48, 58, 0.4)),
-                url(../images/officebackground\ .jpg);
+                url(/images/officebackground\ .jpg);
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
                 background-color: #2F303A;
-            }
+            }/*(../images/officebackground\ .jpg)*/
             .box-title {
                 width: 696px;
                 margin-bottom: 30px;
