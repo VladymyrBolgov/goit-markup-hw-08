@@ -1289,15 +1289,14 @@ img {
     max-width: 270px;
   }
 }
-.section.section__directions {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
 @media screen and (max-width: 1200px) {
   .section__directions {
     display: none;
   }
+}
+.section.section__directions {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .section__title {
