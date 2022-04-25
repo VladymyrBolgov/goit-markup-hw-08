@@ -156,7 +156,7 @@
     .nav-list__item {
         position: relative;
     }
-    .nav-list .nav-list__item+.nav-list__item {
+    .nav-list >li {
         margin-left: 50px;
     }
     .nav-list__link {
