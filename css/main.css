@@ -554,6 +554,9 @@ img {
     margin-top: 32px;
   }
 
+  /* .mobile-menu__list .mobile-menu__link:not(:last-child){
+       margin-bottom: 32px;
+       }*/
   .mobile-menu__list {
     margin-bottom: 302px;
   }
@@ -625,12 +628,12 @@ img {
             align-items: center;
   }
 
-  .nav-list {
-    margin-left: 90px;
-  }
-
   .nav-list__item {
     position: relative;
+  }
+
+  .nav-list {
+    margin-left: 90px;
   }
 
   .nav-list .nav-list__item:not(:last-child) {
@@ -955,68 +958,195 @@ img {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }*/
 /* 8дз мобильное меню*/
-.box {
-  margin-left: auto;
-  margin-right: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  height: 600px;
-  max-width: 1600px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/officebackground\ .jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/officebackground\ .jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-color: #2F303A;
-}
+@media screen and (max-width: 767px) {
+  .box {
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    max-width: 480px;
+    height: 400px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/officebackground0-767\ .jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/officebackground0-767\ .jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #2F303A;
+  }
 
-.box-title {
-  width: 696px;
-  margin-bottom: 30px;
-  color: var(--primary-color-white);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-}
+  .box-title {
+    width: 360px;
+    margin-bottom: 30px;
+    color: var(--primary-color-white);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
 
-.box-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: var(--primary-color-white);
-  background-color: var(--accent-color);
-  font-family: Roboto, sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  cursor: pointer;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border: 0px;
-  border-radius: 4px;
-  padding: 10px 32px;
-  border: transparent;
+  .box-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: var(--primary-color-white);
+    background-color: var(--accent-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: 0px;
+    border-radius: 4px;
+    padding: 10px 32px;
+    border: transparent;
+  }
+  .box-button:hover, .box-button:focus {
+    background-color: var(--color-box-button);
+  }
 }
-.box-button:hover, .box-button:focus {
-  background-color: var(--color-box-button);
-}
+@media screen and (min-width: 768px) {
+  .box {
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    max-width: 768px;
+    height: 400px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/officebackground768\ .jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/officebackground768\ .jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #2F303A;
+  }
 
+  .box-title {
+    width: 696px;
+    margin-bottom: 30px;
+    color: var(--primary-color-white);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .box-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: var(--primary-color-white);
+    background-color: var(--accent-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: 0px;
+    border-radius: 4px;
+    padding: 10px 32px;
+    border: transparent;
+  }
+  .box-button:hover, .box-button:focus {
+    background-color: var(--color-box-button);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .box {
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    height: 600px;
+    max-width: 1600px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/officebackground\ .jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/officebackground\ .jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #2F303A;
+  }
+
+  .box-title {
+    width: 696px;
+    margin-bottom: 30px;
+    color: var(--primary-color-white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .box-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: var(--primary-color-white);
+    background-color: var(--accent-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: 0px;
+    border-radius: 4px;
+    padding: 10px 32px;
+    border: transparent;
+  }
+  .box-button:hover, .box-button:focus {
+    background-color: var(--color-box-button);
+  }
+}
 .benefits-list {
   display: -webkit-box;
   display: -ms-flexbox;

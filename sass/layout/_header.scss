@@ -101,6 +101,9 @@
     .mobile-menu__list >li{
       margin-top: 32px;
     }
+   /* .mobile-menu__list .mobile-menu__link:not(:last-child){
+        margin-bottom: 32px;
+        }*/
     .mobile-menu__list{
       margin-bottom: 302px;
     }
@@ -156,11 +159,11 @@
         display: flex;
         align-items: center;
     }
-    .nav-list {
-        margin-left: 90px;
-    }
     .nav-list__item {
         position: relative;
+    }
+    .nav-list {
+        margin-left: 90px;
     }
     .nav-list .nav-list__item:not(:last-child){
     margin-right: 50px;
