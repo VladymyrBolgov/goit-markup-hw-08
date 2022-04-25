@@ -1245,10 +1245,13 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin: -15px;
   }
 
-  .benefits-list .benefits-list__item + .benefits-list__item {
-    margin-left: 30px;
+  .benefits-list__item {
+    margin: 15px;
+    -ms-flex-preferred-size: calc((100% - 120px) / 4);
+        flex-basis: calc((100% - 120px) / 4);
   }
 
   .benefits-list__link {
