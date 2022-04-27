@@ -1,9 +1,5 @@
+/* Team section */
 
-
-
-
-
-  
     .section__team {
         background-color: var(--background-button-member);
     }
@@ -11,6 +7,7 @@
     .team-list{
         display: flex;
         margin-top: 50px;
+        justify-content: center;
     }
     .team-list__item {
         background-color: var(--primary-color-white);
@@ -54,6 +51,9 @@
       .social-list__item+.social-list__item{
         margin-left: 10px;
     }
+
+
+    
     .social-list__link{
         display: flex;
         align-items: center;
