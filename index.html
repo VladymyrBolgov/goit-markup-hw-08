@@ -186,7 +186,6 @@
                                     <img src="./images/img/directions/progressive-jpeg/img3/img3-lap_370x294-progressive.jpeg" alt="Выбирает цвет в палитре" width="370" height="297">
                                 </a>
                                 <p class="directions-list__text">Дизайнерские решения</p>
-
                         </li>
                      </ul>
                  </div>
@@ -198,7 +197,35 @@
                         <h2 class="section__title">Наша команда</h2>
                         <ul class="team-list">
                             <li class="team-list__item">
-                                <img src="./images/productdesigner.jpg" alt="Фото Игоря Демьяненко" width="270" height="260">
+                                <picture>
+                                    <source 
+                                        srcset="./images/img/team/ihor/webp/ihor-lap_270x260.webp 1x, ./images/img/team/ihor/webp/ihor-lap_540x520@2x.webp 2x"
+                                        media="(min-width:1199.99px)" type="image/webp">
+
+                                    <source
+                                        srcset="./images/img/team/ihor/webp/ihor-tab_354x374.webp 1x, ./images/img/team/ihor/webp/ihor-tab_708x748@2x.webp 2x"
+                                        media="(min-width:767.99px)" type="image/webp">
+
+                                    <source
+                                        srcset="./images/img/team/ihor/webp/ihor-mob_450x460.webp 1x, ./images/img/team/ihor/webp/ihor-mob_900x920@2x.webp 2x"
+                                        media="(max-width:767.99px)" type="image/webp">
+
+                                    <source
+                                        src="./images/img/team/ihor/progressive-jpeg/ihor-lap_270x260-progressive.jpeg 1x, ./images/img/team/ihor/progressive-jpeg/ihor-lap_540x520@2x-progressive.jpeg 2x"
+                                        media="(min-width:1199.99px)">
+
+                                    <source
+                                        srcset="./images/img/team/ihor/progressive-jpeg/ihor-tab_354x374-progressive.jpeg 1x, ./images/img/team/ihor/progressive-jpeg/ihor-tab_708x748@2x-progressive.jpeg 2x"
+                                        media="(min-width:767.99px)">
+
+                                    <source
+                                        src="./images/img/team/ihor/progressive-jpeg/ihor-mob_450x460-progressive.jpeg 1x, ./images/img/team/ihor/progressive-jpeg/ihor-mob_900x920@2x-progressive.jpeg 2x"
+                                        media="(max-width:767.99px)">
+
+                                    <img src="./images/img/team/ihor/progressive-jpeg/ihor-mob_450x460-progressive.jpeg" 
+                                        alt="Фото Игоря Демьяненко">
+                                </picture>
+                                
                                 <div class="team-list__container">
                                     <h3 class="team-list__title">Игорь Демьяненко</h3>
                                     <p class="team-list__text">Product Designer</p>

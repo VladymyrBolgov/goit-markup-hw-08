@@ -1,17 +1,8 @@
 
-/*@media screen and (min-width: 320px) and (max-width: 479px) {
-    max-width: 100%;
-    background-image: url('/mode-1/background\ mob.jpg');
-    @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-    background-image: url('/mode-1/Header\ Fon\ 2x\ mb.jpg');
-  }*/
-
 
 // 0px-767px
 /*@media screen and (max-width: 767px) {*/
-    .section__team {
+    /*.section__team {
         background-color: var(--background-button-member);
     }
     .section__title{
@@ -94,7 +85,7 @@
     /*}*/
 
 //768px
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {
     .section__team {
         background-color: var(--background-button-member);
     }
@@ -169,10 +160,11 @@
               fill: var(--primary-color-white); 
           }
       }
-    }    
+    }    */
 
 //1200
 @media screen and (min-width: 1200px) {
+  
     .section__team {
         background-color: var(--background-button-member);
     }
@@ -181,7 +173,6 @@
         display: flex;
         margin-top: 50px;
     }
-    
     .team-list__item {
         background-color: var(--primary-color-white);
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -215,6 +206,7 @@
         text-transform: none;
         letter-spacing: 0.03em;
     }
+
     .social-list{
         display: flex; 
         justify-content: center; 
@@ -248,4 +240,4 @@
           }
       }
     }
-
+     
