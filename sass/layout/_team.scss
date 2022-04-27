@@ -52,8 +52,35 @@
         margin-left: 10px;
     }
 
+@media screen and (max-width: 768px) {
+    .team-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .team-list__item{
+        max-width: 450px;
+        margin: 0;
+    }
+    .team-list__item + .team-list__item{
+        margin-top: 30px;
+    }
+    .section__title{
+        color: var(--title-text-color);
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.17;
+        text-align: center;
+        text-transform: none;
+        letter-spacing: 0.03em;
+    }
+}
 
+@media screen and (min-width: 768px) {
     
+    
+    }
+
+
     .social-list__link{
         display: flex;
         align-items: center;
