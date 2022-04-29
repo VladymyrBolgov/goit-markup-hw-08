@@ -3,9 +3,44 @@
     background-color: var(--color-background);
     padding: 60px 0;
 }
+.footer-color {
+    color: var(--primary-color-white);
+}
+.footer__contacts {
+    flex-grow: 1;
+}
 
-
-
+.footer__address {
+    margin-top: 20px;
+}
+.address__list{
+    display: flex;
+    flex-direction: column;
+}
+.address__item + .address__item{
+    margin-top: 10px;
+}
+.address a {
+    font-style: normal;
+}
+.footer__address {
+    color: var(--primary-color-white);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0.03em;
+}
+.footer__link {
+    color: var(--color-footer-contact);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0.03em;
+}
 /*.footer {
     background-color: var(--color-background);
     padding: 60px 0;
