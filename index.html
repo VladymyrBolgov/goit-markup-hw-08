@@ -20,7 +20,6 @@
                 <nav class="navigation">
                     <a class="logo" href="./index.html" lang="en">Web<span class="logo__color">Studio</span> </a>
 
-                    
                     <ul class="nav-list">
                         <li class="nav-list__item">
                             <a href="" class="nav-list__link nav-list__link--current">Студия</a>
@@ -50,6 +49,7 @@
                     </li>
                 </ul>
                 <!--мобильная версия 480-->
+
                 <button type="button" class="mobile-menu-btn" aria-expanded="false" data-menu-open>
                     <svg class="mobile-menu-btn__icon"  width="40"  height="40"
                         aria-label="Переключатель мобильного меню">
@@ -57,7 +57,6 @@
                     </svg>
                 </button>
             </div>
-
               <!--скрытое меню-->
             <div class="mobile-menu" data-menu>
                 <div class="container mobile-menu__container">
@@ -66,17 +65,19 @@
                       <use href="./images/icon/symbol-defs.svg#close-icon"></use>
                     </svg>
                   </button>
-                    <ul class="mobile-menu__list">
-                        <li>
-                        <a class="mobile-menu__link mobile__nav-link--current" href="./index.html">Студия</a>
-                        </li>
-                        <li>
-                        <a class="mobile-menu__link" href="./portfolio.html">Портфолио</a>
-                        </li>
-                        <li>
-                        <a class="mobile-menu__link" href="">Контакты</a>
-                        </li>
-                    </ul>
+                  <nav class="mobile-menu__nav ">
+                        <ul class="mobile-menu__list">
+                            <li class="mobile-menu__nav-item">
+                            <a class="mobile-menu__link mobile__nav-link--current" href="./index.html">Студия</a>
+                            </li>
+                            <li class="mobile-menu__nav-item">
+                            <a class="mobile-menu__link" href="./portfolio.html">Портфолио</a>
+                            </li>
+                            <li class="mobile-menu__nav-item">
+                            <a class="mobile-menu__link" href="">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
                     <ul class="mobile-menu__contact">
                         <li class="mobile-menu__contact-item">
                             <a href="tel:+380961111111" class="mobile-menu__contact-link--phone" >   
@@ -88,16 +89,16 @@
                         </li> 
                     </ul>
                     <ul class="mobile-menu__social-list">
-                        <li>
+                        <li class="mobile-menu__social-item">
                             <a class="mobile-menu__social-link" href="">Instagram</a>
                         </li>
-                        <li>
+                        <li class="mobile-menu__social-item">
                             <a class="mobile-menu__social-link" href="">Twitter</a>
                         </li>
-                        <li>
+                        <li class="mobile-menu__social-item">
                             <a class="mobile-menu__social-link" href="">Facebook</a>
                         </li>
-                        <li>
+                        <li class="mobile-menu__social-item">
                             <a class="mobile-menu__social-link" href="">LinkedIn</a>
                         </li>
                     </ul>
