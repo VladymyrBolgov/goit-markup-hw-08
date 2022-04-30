@@ -1,6 +1,6 @@
 /* Footer  */
 
-/*основной*/
+
 .footer__container{
     display: flex;
     align-items: baseline;
@@ -9,6 +9,11 @@
     background-color: var(--color-background);
     padding: 60px 0;
 }
+.footer__contacts {
+    flex-grow: 1;
+}
+
+/* Address  */
 .address{
     margin-top: 20px;
 }
@@ -160,4 +165,85 @@
 .subscribe__button-icon{
     margin-left: 10px;
     fill: var(--primary-color-white);
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer{
+        min-height: 620px;
+    }
+    .footer__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-grow: 0;
+        margin-bottom: 60px;
+    }
+    .address__list {
+        align-items: center;
+    }
+    .footer-social{
+        margin-bottom: 60px;  
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer {
+        min-height: 480px;
+    }
+    .footer-social{
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .footer-social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .footer__subscribe{
+        width: 450px;
+        margin: 0;
+        text-align: center;
+        margin: 60px auto 0;
+    }
+    .subscribe__label{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subscribe__input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .subscribe__button {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .footer__subscribe {
+        width: 290px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .footer {
+        min-height: 260px;
+    }
+    .footer__container {
+        display: flex;
+        align-items: baseline;
+    }
 }
