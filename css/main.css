@@ -2044,14 +2044,6 @@ img {
         flex-basis: calc((100% - 90px) / 3);
   }
 }
-/*@media screen and (max-width: 1200px) {
-    .projects-list__item{
-        flex-basis: calc((100% - 4 * 15px) / 2);
-    }
-    .filter-list{
-        justify-content: center;
-    }
-}*/
 .filter-list__item:last-child {
   /* flex-basis: 100%;*/
 }
