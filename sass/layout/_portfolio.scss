@@ -102,7 +102,7 @@
     text-transform: none;
 }
 
-
+/* 0px - 767px*/
 @media screen and (max-width: 767px){
     .filter-list{
         flex-wrap: wrap;
@@ -118,6 +118,7 @@
         flex-basis: 100%;
     }
 }
+/* от 768px*/
 @media screen and (min-width: 768px){
     .projects-list__item{
         flex-basis: calc((100% - 4 * 15px) / 2);
@@ -126,7 +127,7 @@
         justify-content: center;
     }
 } 
-
+/* от 1200px*/
 @media screen and(min-width: 1200px) {
     .filter-list{
         flex-wrap: wrap;
