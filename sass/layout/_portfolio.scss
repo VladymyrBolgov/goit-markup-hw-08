@@ -106,12 +106,13 @@
 @media screen and (max-width: 767px){
     .filter-list{
         flex-wrap: wrap;
-       /* margin: -15px;*/
-        margin-bottom: 40px;  
+        /*margin: -15px;*/
+        margin-bottom: 40px; 
     }
+
     .projects-list{
         flex-direction: column;
-        align-items: center;
+        align-items: center;  
     }
     .projects-list__item{
         flex-basis: 100%;
@@ -144,9 +145,9 @@
 
 
 
- .filter-list__item:last-child{
-      /* flex-basis: 100%;*/
-    }
+ /*.filter-list__item:last-child{
+       flex-basis: 100%;
+    }*/
     .filter-list__item{
       /*  margin: 15px;*/
       /*  flex-basis: calc((100% - 4 * 15px) / 3);*/
