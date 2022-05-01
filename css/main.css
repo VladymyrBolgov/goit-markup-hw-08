@@ -1947,8 +1947,12 @@ img {
   .filter-list {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    /*margin: -15px;*/
+    margin: -15px;
     margin-bottom: 40px;
+  }
+
+  .filter-list__item {
+    margin: 15px;
   }
 
   .projects-list {
@@ -1998,12 +2002,11 @@ img {
 }
 /*.filter-list__item:last-child{
       flex-basis: 100%;
-   }*/
-.filter-list__item {
-  /*  margin: 15px;*/
-  /*  flex-basis: calc((100% - 4 * 15px) / 3);*/
-}
-
-.filter-list__button {
-  /* width: 100%;*/
-}/*# sourceMappingURL=main.css.map */
+   }
+   .filter-list__item{
+       margin: 15px;
+       flex-basis: calc((100% - 4 * 15px) / 3);
+   }
+   .filter-list__button{
+       width: 100%;
+   }*//*# sourceMappingURL=main.css.map */
