@@ -1606,15 +1606,6 @@ img {
 }
 
 /*footer-social*/
-.footer__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-}
-
 .footer-social {
   margin-left: 70px;
 }
