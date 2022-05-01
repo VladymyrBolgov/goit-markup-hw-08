@@ -5,7 +5,7 @@
     margin-bottom: 50px;
 }
 
-.filter-list__item+.filter-list__item {
+.filter-list__item + .filter-list__item {
     margin-left: 8px;
 }
 .filter-list__button {
@@ -47,7 +47,6 @@
 }
 .projects-list__item{
     margin: 15px;
-    /*flex-basis: calc((100% - 6*15px) / 3);*/
 }
 .projects-list__link{
     text-transform: none;
@@ -64,6 +63,7 @@
 .projects-list__overlay-text{
     position: absolute;
     bottom: 0;
+    
     width: 100%;
     height: 100%;
     display: block;
@@ -125,6 +125,31 @@
 @media screen and (max-width: 1200px) {
     .projects-list__item{
         flex-basis: calc((100% - 4 * 15px) / 2);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .filter-list{
+        flex-wrap: wrap;
+        margin: -15px;
+        margin-bottom: 40px;
+    }
+    .filter-list__item:last-child{
+        flex-basis: 100%;
+    }
+    .filter-list__item{
+        margin: 15px;
+        flex-basis: calc((100% - 4 * 15px) / 3);
+    }
+    .filter-list__button{
+        width: 100%;
+    }
+    .projects-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects-list__item{
+        flex-basis: 100%;
     }
 }
 
