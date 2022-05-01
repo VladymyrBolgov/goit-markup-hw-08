@@ -31,7 +31,7 @@
     transform: translate(-50%, -50%) scale(1.2);
 }
 
-.modal-button {
+.modal__button {
   position: absolute;
   right: 8px;
   top: 8px;
@@ -51,7 +51,7 @@
 }
 
 
-.modal-title{
+.modal__title{
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
@@ -59,13 +59,13 @@
   color: var(--title-text-color);
   margin-bottom: 12px;
 }
-.modal-item:not(:last-child) {
+.modal__item:not(:last-child) {
   margin-bottom: 10px;
 }
-.modal-item:last-child {
+.modal__item:last-child {
   margin-bottom: 20px;
 }
-.modal-label {
+.modal__label {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -74,18 +74,18 @@
     letter-spacing: 0.01em;
     color: var(--primary-text-color);
 
-&:focus-within .modal-button-icon{
+&:focus-within .modal__button-icon{
   fill: var(--accent-color);
 }
 }
-.modal-button-icon{
+.modal__button-icon{
   position: absolute;
   left: 12px;
   bottom: 11px;
   fill: var(--title-text-color); 
 }
 
-.modal-input{
+.modal__input{
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -97,7 +97,7 @@
     border-color: var(--accent-color);
 }
 }
-  .modal-textarea{
+  .modal__textarea{
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -109,14 +109,14 @@
     border-color: var(--accent-color);
   }
 }
-  .modal-item textarea::placeholder{
+  .modal__item textarea::placeholder{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
   }
 
-.modal-label-checkbox {
+.modal__label-checkbox {
     position: relative;
     display: flex;
     flex-direction: row-reverse;
@@ -125,19 +125,19 @@
     margin-bottom: 30px;
     margin-top: 20px;
   }
-.modal-checkbox{
+.modal__checkbox{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
 }
 
-.checkbox-icon {
+.checkbox__icon {
     width: 15px;
     height: 15px;
     border: 2px solid black;
     border-radius: 2px;
 
-    .modal-checkbox:checked + &{
+    .modal__checkbox:checked + &{
       background-position: center;
       border: transparent;
       background-color: var(--accent-color);
@@ -147,14 +147,14 @@
     }
   }
  
-  .checkbox-span{
+  .checkbox__span{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     margin-left: 10px;
   }
-  .modal_link{
+  .modal__link{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -170,11 +170,11 @@
   }
 }
 
-  .modal-submit-wrapper{
+  .modal__submit-wrapper{
     display: flex;
     justify-content: center;
   }
-  .modal-submit{
+  .modal__submit{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -194,5 +194,23 @@
  &:focus {
     background-color: var(--color-box-button);
 }
+}
+
+@media (max-width: 1200px) {
+  .modal{
+    width: 450px;
+    height: 609px;
+  }
+  .checkbox__span, .modal__link{
+    font-size: 12px;
+}
+}
+@media screen and (max-width: 481px) {
+  .modal {
+      max-width: calc((100% - 2 * 15px) / 1);
+  }
+  .checkbox__span, .modal__link{
+      font-size: 12px;
+  }
 }
 
