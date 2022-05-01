@@ -117,6 +117,7 @@
         flex-wrap: wrap;
         margin: -15px;
         margin-bottom: 40px;
+        justify-content: center;
     }
     .projects-list__item{
         flex-basis: calc((100% - 6 * 15px) / 3);
@@ -126,6 +127,10 @@
 @media screen and (max-width: 1200px) {
     .projects-list__item{
         flex-basis: calc((100% - 4 * 15px) / 2);
+    }
+    .filter-list{
+      
+        justify-content: center;
     }
 }
 

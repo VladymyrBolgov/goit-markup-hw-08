@@ -2005,6 +2005,9 @@ img {
         flex-wrap: wrap;
     margin: -15px;
     margin-bottom: 40px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .projects-list__item {
@@ -2016,6 +2019,12 @@ img {
   .projects-list__item {
     -ms-flex-preferred-size: calc((100% - 60px) / 2);
         flex-basis: calc((100% - 60px) / 2);
+  }
+
+  .filter-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 @media screen and (max-width: 767px) {
