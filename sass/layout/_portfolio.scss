@@ -1,12 +1,12 @@
 /*filter-list*/
 .filter-list{
     display: flex;
-   justify-content: center;
+  /* justify-content: center;*/
     margin-bottom: 50px;
 }
 
 .filter-list__item + .filter-list__item {
-    margin-left: 10px;
+    margin-left: 8px;
 }
 .filter-list__button {
     margin: 0 auto;
@@ -135,12 +135,13 @@
        /* margin: -15px;*/
         margin-bottom: 40px;  
     }
+    
     .filter-list__item:last-child{
       /* flex-basis: 100%;*/
     }
     .filter-list__item{
       /*  margin: 15px;*/
-       /* flex-basis: calc((100% - 4 * 15px) / 3);*/
+      /*  flex-basis: calc((100% - 4 * 15px) / 3);*/
     }
     .filter-list__button{
        /* width: 100%;*/

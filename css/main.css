@@ -1875,14 +1875,12 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  /* justify-content: center;*/
   margin-bottom: 50px;
 }
 
 .filter-list__item + .filter-list__item {
-  margin-left: 10px;
+  margin-left: 8px;
 }
 
 .filter-list__button {
@@ -2034,7 +2032,7 @@ img {
 
   .filter-list__item {
     /*  margin: 15px;*/
-    /* flex-basis: calc((100% - 4 * 15px) / 3);*/
+    /*  flex-basis: calc((100% - 4 * 15px) / 3);*/
   }
 
   .filter-list__button {
