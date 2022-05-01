@@ -1882,7 +1882,7 @@ img {
 }
 
 .filter-list__item + .filter-list__item {
-  margin-left: 8px;
+  margin-left: 10px;
 }
 
 .filter-list__button {
@@ -2001,6 +2001,25 @@ img {
   text-transform: none;
 }
 
+@media screen and (min-width: 1200px) {
+  .filter-list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -15px;
+    margin-bottom: 40px;
+  }
+
+  .projects-list__item {
+    -ms-flex-preferred-size: calc((100% - 90px) / 3);
+        flex-basis: calc((100% - 90px) / 3);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .projects-list__item {
+    -ms-flex-preferred-size: calc((100% - 60px) / 2);
+        flex-basis: calc((100% - 60px) / 2);
+  }
+}
 @media screen and (max-width: 767px) {
   .filter-list {
     -ms-flex-wrap: wrap;
@@ -2010,14 +2029,12 @@ img {
   }
 
   .filter-list__item:last-child {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    /* flex-basis: 100%;*/
   }
 
   .filter-list__item {
     /*  margin: 15px;*/
-    -ms-flex-preferred-size: calc((100% - 60px) / 3);
-        flex-basis: calc((100% - 60px) / 3);
+    /* flex-basis: calc((100% - 4 * 15px) / 3);*/
   }
 
   .filter-list__button {
@@ -2037,24 +2054,5 @@ img {
   .projects-list__item {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .filter-list {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: -15px;
-    margin-bottom: 40px;
-  }
-
-  .projects-list__item {
-    -ms-flex-preferred-size: calc((100% - 90px) / 3);
-        flex-basis: calc((100% - 90px) / 3);
-  }
-}
-@media screen and (max-width: 1200px) {
-  .projects-list__item {
-    -ms-flex-preferred-size: calc((100% - 60px) / 2);
-        flex-basis: calc((100% - 60px) / 2);
   }
 }/*# sourceMappingURL=main.css.map */
