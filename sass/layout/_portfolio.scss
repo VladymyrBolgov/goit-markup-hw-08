@@ -123,12 +123,18 @@
     .projects-list__item{
         flex-basis: 100%;
     }
+    
 }
 /* от 768px*/
 @media screen and (min-width: 768px){
     .projects-list__item{
         flex-basis: calc((100% - 4 * 15px) / 2);
     }
+    .filter-list{
+        display: flex;
+    justify-content: center;
+    }
+
 } 
 @media screen and (max-width: 1200px){
     .projects-list__container--bot{
