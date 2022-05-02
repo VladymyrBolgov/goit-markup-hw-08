@@ -342,7 +342,6 @@ img {
 @media (max-width: 1200px) {
   .modal {
     width: 450px;
-    height: 609px;
   }
 
   .checkbox__span, .modal__link {
@@ -354,8 +353,14 @@ img {
     max-width: calc((100% - 30px) / 1);
   }
 
-  .checkbox__span, .modal__link {
+  .checkbox__span {
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .modal {
+    width: 450px;
+    height: 609px;
   }
 }
 .logo {
