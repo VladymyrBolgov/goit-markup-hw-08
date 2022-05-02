@@ -1999,14 +1999,4 @@ img {
     -ms-flex-preferred-size: calc((100% - 90px) / 3);
         flex-basis: calc((100% - 90px) / 3);
   }
-}
-/*.filter-list__item:last-child{
-      flex-basis: 100%;
-   }
-   .filter-list__item{
-       margin: 15px;
-       flex-basis: calc((100% - 4 * 15px) / 3);
-   }
-   .filter-list__button{
-       width: 100%;
-   }*//*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
