@@ -1986,8 +1986,8 @@ img {
         flex-basis: calc((100% - 60px) / 2);
   }
 
-  .filter-list {
-    /* justify-content: center;*/
+  .projects-list__container:first-child {
+    padding-bottom: 56px;
   }
 }
 /* от 1200px*/
@@ -2007,16 +2007,13 @@ img {
         flex-basis: calc((100% - 90px) / 3);
   }
 }
-@media screen and (min-width: 1200px) {
-  .filter-list {
-    -ms-flex-wrap: wrap;
+/*@media screen and (min-width: 1200px) {
+    .filter-list {
         flex-wrap: wrap;
-    margin: -15px;
-    margin-bottom: 40px;
-  }
-
-  .projects-list__item {
-    -ms-flex-preferred-size: calc((100% - 90px) / 3);
-        flex-basis: calc((100% - 90px) / 3);
-  }
-}/*# sourceMappingURL=main.css.map */
+        margin: -15px;
+        margin-bottom: 40px;
+    }
+    .projects-list__item {
+        flex-basis: calc((100% - 6 * 15px) / 3);
+    }
+}*//*# sourceMappingURL=main.css.map */
