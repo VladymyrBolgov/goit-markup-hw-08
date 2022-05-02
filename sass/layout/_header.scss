@@ -32,6 +32,9 @@
 .mobile-menu-btn__icon{
     fill: #000;
 }
+.contact__link{
+    color: var(--primary-text-color);
+}
 
 // 0px-768px
 @media screen and (max-width: 768px) {
