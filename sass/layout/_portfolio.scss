@@ -129,11 +129,14 @@
     .projects-list__item{
         flex-basis: calc((100% - 4 * 15px) / 2);
     }
+} 
+@media screen and (max-width: 1200px){
     .projects-list__container--bot{
         padding-bottom: 56px;
     }
-   
-} 
+}
+
+
 /* от 1200px*/
 @media screen and(min-width: 1200px) {
     .filter-list{

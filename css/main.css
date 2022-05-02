@@ -1985,7 +1985,8 @@ img {
     -ms-flex-preferred-size: calc((100% - 60px) / 2);
         flex-basis: calc((100% - 60px) / 2);
   }
-
+}
+@media screen and (max-width: 1200px) {
   .projects-list__container--bot {
     padding-bottom: 56px;
   }
