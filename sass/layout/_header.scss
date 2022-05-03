@@ -47,6 +47,7 @@
 }
 }
 
+
 // 0px-768px
 @media screen and (max-width: 768px) {
   
@@ -121,9 +122,10 @@
     .mobile-menu__list >li{
       margin-top: 32px;
     }
-    .mobile-menu__list{
-      margin-bottom: 302px;
+   .mobile-menu__list{
+      margin-bottom: 300px;
     }
+ 
     .mobile-menu__contact-link--phone{
       font-weight: 500;
       font-size: 34px;
@@ -145,6 +147,9 @@
     }
     .mobile-menu__contact{
       margin-bottom: 64px;
+    }
+    .mobile__nav-link--current {
+        color: var(--accent-color);
     }
     .mobile-menu__social-link{
       font-weight: 500;

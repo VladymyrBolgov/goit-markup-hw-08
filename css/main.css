@@ -500,7 +500,7 @@ img {
   }
 
   .mobile-menu__list {
-    margin-bottom: 302px;
+    margin-bottom: 300px;
   }
 
   .mobile-menu__contact-link--phone {
@@ -527,6 +527,10 @@ img {
 
   .mobile-menu__contact {
     margin-bottom: 64px;
+  }
+
+  .mobile__nav-link--current {
+    color: var(--accent-color);
   }
 
   .mobile-menu__social-link {
@@ -867,7 +871,8 @@ img {
 
 @media screen and (max-width: 768px) {
   .box {
-    background-image: url(.././images/img/hero/progressive-jpeg/hero-bg-mob_480x400-progressive.jpeg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(.././images/img/hero/progressive-jpeg/hero-bg-mob_480x400-progressive.jpeg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(.././images/img/hero/progressive-jpeg/hero-bg-mob_480x400-progressive.jpeg);
   }
 
   .box__title {
@@ -876,7 +881,8 @@ img {
 }
 @media screen and (max-width: 768px) and (min-device-pixel-ratio: 2), screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 768px) and (min-resolution: 192dpi), screen and (max-width: 768px) and (min-resolution: 2dppx) {
   .box {
-    background-image: url(.././images/img/hero/progressive-jpeg/hero-bg-mob_960x800@2x-progressive.jpeg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(.././images/img/hero/progressive-jpeg/hero-bg-mob_960x800@2x-progressive.jpeg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(.././images/img/hero/progressive-jpeg/hero-bg-mob_960x800@2x-progressive.jpeg);
   }
 }
 @media screen and (min-width: 768px) {
@@ -943,12 +949,14 @@ img {
   }
 
   .box {
-    background-image: url(.././images/img/hero/progressive-jpeg/hero-bg-tab_768x400-progressive.jpeg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(.././images/img/hero/progressive-jpeg/hero-bg-tab_768x400-progressive.jpeg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(.././images/img/hero/progressive-jpeg/hero-bg-tab_768x400-progressive.jpeg);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .box {
-    background-image: url(.././images/img/hero/progressive-jpeg/hero-bg-tab_1536x800@2x-progressive.jpeg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(.././images/img/hero/progressive-jpeg/hero-bg-tab_1536x800@2x-progressive.jpeg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(.././images/img/hero/progressive-jpeg/hero-bg-tab_1536x800@2x-progressive.jpeg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1015,12 +1023,14 @@ img {
   }
 
   .box {
-    background-image: url(.././images/img/hero/progressive-jpeg/hero-bg-lap_1600x600-progressive.jpeg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(.././images/img/hero/progressive-jpeg/hero-bg-lap_1600x600-progressive.jpeg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(.././images/img/hero/progressive-jpeg/hero-bg-lap_1600x600-progressive.jpeg);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .box {
-    background-image: url(.././images/img/hero/progressive-jpeg/hero-bg-lap_1600x600@2x-progressive.jpeg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(.././images/img/hero/progressive-jpeg/hero-bg-lap_1600x600@2x-progressive.jpeg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(.././images/img/hero/progressive-jpeg/hero-bg-lap_1600x600@2x-progressive.jpeg);
   }
 }
 .box__container {
