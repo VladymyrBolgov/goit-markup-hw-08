@@ -423,10 +423,6 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  .header {
-    /* height: 60px;*/
-  }
-
   .header__container {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -1961,7 +1957,6 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  /* margin-bottom: 4px;*/
 }
 
 .projects-list__text {
@@ -2025,7 +2020,13 @@ img {
             justify-content: center;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 0) and (max-width: 1200px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .projects-list__container--bot {
     padding-bottom: 56px;
   }
