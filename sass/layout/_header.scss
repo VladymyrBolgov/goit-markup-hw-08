@@ -35,6 +35,16 @@
 .contact__link{
     color: var(--primary-text-color);
 }
+.contact__link.mail,
+.contact__link.phone {
+   /*display: flex;
+    align-items: center;*/
+    color: var(--primary-text-color);
+&:hover,
+&:focus {
+    color: var(--accent-color); 
+}
+}
 
 // 0px-768px
 @media screen and (max-width: 768px) {
@@ -43,6 +53,9 @@
     }
     .contact{
         display: none;
+    }
+    .contact{
+        color: var(--primary-text-color);
     }
     .mobile-menu {
         position: absolute;
@@ -223,7 +236,7 @@
     .contact__link.phone {
         display: flex;
         align-items: center;
-        color: var(--primary-text-color);
+        color: #757575;
     &:hover,
     &:focus {
         color: var(--accent-color); 
@@ -325,7 +338,7 @@
     .contact__link.phone {
         display: flex;
         align-items: center;
-        color: var(--primary-text-color);
+        color: #757575;
     &:hover,
     &:focus {
         color: var(--accent-color); 
