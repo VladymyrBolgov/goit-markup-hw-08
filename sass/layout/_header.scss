@@ -49,7 +49,7 @@
 
 
 // 0px-768px
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   
    .header__container{
       padding-top: 15px;
@@ -61,12 +61,10 @@
     }
     .contact{
         display: none;
-    }
-    .contact{
         color: var(--primary-text-color);
     }
     .mobile-menu {
-        position: absolute;
+        position: fixed;
         z-index: 5;
         top: 0;
         left: 0;
