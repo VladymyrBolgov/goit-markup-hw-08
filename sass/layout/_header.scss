@@ -38,23 +38,15 @@
     fill: var(--accent-color);
 }
 
-.contact__icon{
-    color: var(--primary-text-color);
-}
-.contact__link{
-    color: var(--primary-text-color);
-}
 .contact__link,
 .contact__link {
-   /*display: flex;
-    align-items: center;*/
-    /*color: var(--primary-text-color);*/
+    display: flex;
+    align-items: center;
 &:hover,
 &:focus {
     color: var(--accent-color); 
 }
 }
-
 
 // 0px-768px
 @media screen and (max-width: 767px) {
@@ -251,8 +243,8 @@
         color: var(--accent-color);
     }
     }
-    .contact__link.mail,
-    .contact__link.phone {
+    .contact__link,
+    .contact__link {
         display: flex;
         align-items: center;
         color: #757575;
@@ -353,8 +345,8 @@
         color: var(--accent-color);
     }
     }
-    .contact__link.mail,
-    .contact__link.phone {
+    .contact__link,
+    .contact__link {
         display: flex;
         align-items: center;
         color: #757575;

@@ -411,19 +411,14 @@ img {
   fill: var(--accent-color);
 }
 
-.contact__icon {
-  color: var(--primary-text-color);
-}
-
-.contact__link {
-  color: var(--primary-text-color);
-}
-
 .contact__link,
 .contact__link {
-  /*display: flex;
-   align-items: center;*/
-  /*color: var(--primary-text-color);*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .contact__link:hover, .contact__link:focus,
 .contact__link:hover,
@@ -656,8 +651,8 @@ img {
     color: var(--accent-color);
   }
 
-  .contact__link.mail,
-.contact__link.phone {
+  .contact__link,
+.contact__link {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -666,9 +661,9 @@ img {
             align-items: center;
     color: #757575;
   }
-  .contact__link.mail:hover, .contact__link.mail:focus,
-.contact__link.phone:hover,
-.contact__link.phone:focus {
+  .contact__link:hover, .contact__link:focus,
+.contact__link:hover,
+.contact__link:focus {
     color: var(--accent-color);
   }
 
@@ -789,8 +784,8 @@ img {
     color: var(--accent-color);
   }
 
-  .contact__link.mail,
-.contact__link.phone {
+  .contact__link,
+.contact__link {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -799,9 +794,9 @@ img {
             align-items: center;
     color: #757575;
   }
-  .contact__link.mail:hover, .contact__link.mail:focus,
-.contact__link.phone:hover,
-.contact__link.phone:focus {
+  .contact__link:hover, .contact__link:focus,
+.contact__link:hover,
+.contact__link:focus {
     color: var(--accent-color);
   }
 
