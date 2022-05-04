@@ -411,27 +411,19 @@ img {
   fill: var(--accent-color);
 }
 
-.contact__link,
+/*.contact__link,
 .contact__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+    display: flex;
+    align-items: center;
+&:hover,
+&:focus {
+    color: var(--accent-color); 
 }
-.contact__link:hover, .contact__link:focus,
-.contact__link:hover,
-.contact__link:focus {
-  color: var(--accent-color);
-}
-
-.contact__icon:hover,
-.contact__icon:focus {
-  /* color: var(--accent-color);*/
-  fill: currentcolor;
-}
-
+}*/
+/*.contact__icon:hover,
+.contact__icon:focus{
+    fill: currentcolor;
+}*/
 @media screen and (max-width: 767px) {
   .header__container {
     padding-top: 15px;
@@ -636,7 +628,6 @@ img {
   }
 
   .contact__icon {
-    /* color: var(--primary-text-color);*/
     fill: currentColor;
     margin-right: 10px;
   }
@@ -675,7 +666,6 @@ img {
 
   .link.contact__link:focus,
 .link.contact__link::after {
-    /* color: var(--accent-color);*/
     cursor: pointer;
     fill: currentColor;
     -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -808,7 +798,6 @@ img {
 
   .link.contact__link:focus,
 .link.contact__link::after {
-    /* color: var(--accent-color);*/
     cursor: pointer;
     fill: currentColor;
     -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
