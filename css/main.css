@@ -1347,6 +1347,10 @@ img {
   }
 }
 @media screen and (min-width: 768px) {
+  .section__title {
+    font-size: 28px;
+  }
+
   .clients-list {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1365,6 +1369,10 @@ img {
   }
 }
 @media screen and (min-width: 1200px) {
+  .section__title {
+    font-size: 36px;
+  }
+
   .clients-list {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
