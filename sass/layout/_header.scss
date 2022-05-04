@@ -49,7 +49,8 @@
 }
 .contact__icon:hover,
 .contact__icon:focus{
-    color: var(--accent-color); 
+   /* color: var(--accent-color);*/ 
+    fill: currentcolor;
 }
 
 // 0px-768px

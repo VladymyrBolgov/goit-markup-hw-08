@@ -426,9 +426,10 @@ img {
   color: var(--accent-color);
 }
 
-.contact__item:hover,
-.contact__item:focus {
-  color: var(--accent-color);
+.contact__icon:hover,
+.contact__icon:focus {
+  /* color: var(--accent-color);*/
+  fill: currentcolor;
 }
 
 @media screen and (max-width: 767px) {
