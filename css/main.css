@@ -344,30 +344,6 @@ img {
   background-color: var(--color-box-button);
 }
 
-@media (max-width: 1200px) {
-  .modal {
-    width: 450px;
-  }
-
-  .checkbox__span, .modal__link {
-    font-size: 12px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .modal {
-    max-width: calc((100% - 30px) / 1);
-  }
-
-  .checkbox__span {
-    font-size: 12px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .modal {
-    width: 450px;
-    height: 609px;
-  }
-}
 .logo {
   color: var(--accent-color);
   font-family: Raleway, cursive;

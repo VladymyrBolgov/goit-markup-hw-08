@@ -31,7 +31,6 @@
   @media screen and (min-width: 480px) {
     width: 451px;
   }
-
   @media screen and (min-width: 120px) {
     width: 528px;
   }
@@ -205,27 +204,3 @@
     background-color: var(--color-box-button);
 }
 }
-
-
-/*@media (max-width: 1200px) {
-  .modal{
-    width: 450px;
-  }
-  .checkbox__span, .modal__link{
-    font-size: 12px;
-}
-}
-@media screen and (max-width: 480px) {
-  .modal {
-      max-width: calc((100% - 2 * 15px) / 1);
-  }
-  .checkbox__span{
-      font-size: 12px;
-  }
-}
-@media screen and (max-width: 767px){
-  .modal{
-    width: 450px;
-    height: 609px;
-  }
-  }
