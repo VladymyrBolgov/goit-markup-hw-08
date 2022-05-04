@@ -33,14 +33,19 @@
 .mobile-menu-btn__icon{
     fill: #000;
 }
+.mobile-menu-btn__icon:hover,
+.mobile-menu-btn__icon:hover {
+    fill: var(--accent-color);
+}
+
 .contact__icon{
     color: var(--primary-text-color);
 }
 .contact__link{
     color: var(--primary-text-color);
 }
-.contact__link.mail,
-.contact__link.phone {
+.contact__link,
+.contact__link {
    /*display: flex;
     align-items: center;*/
     /*color: var(--primary-text-color);*/
