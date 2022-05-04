@@ -426,6 +426,11 @@ img {
   color: var(--accent-color);
 }
 
+.contact__item:hover,
+.contact__item:focus {
+  color: var(--accent-color);
+}
+
 @media screen and (max-width: 767px) {
   .header__container {
     padding-top: 15px;
