@@ -1324,11 +1324,14 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  .section__title {
+    margin-bottom: 30px;
+  }
+
   .clients-list {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin: -15px;
-    margin-top: 30px;
   }
 
   .clients-list__item {
