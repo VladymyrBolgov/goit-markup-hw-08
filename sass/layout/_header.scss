@@ -15,7 +15,6 @@
 
 .header{
     position: relative;
-  
 }
 .header__container{
     display: flex;
@@ -53,7 +52,7 @@
     }
     /*Мобильное меню*/
     .mobile-menu {
-        position: fixed;
+       position: fixed;
         z-index: 5;
         top: 0;
         left: 0;
@@ -72,7 +71,7 @@
         pointer-events: auto;
       }
       .mobile-menu__container{
-        position: relative;
+       position: relative;
         padding-top: 48px;
         padding-bottom: 48px;
         padding-left: 40px;
