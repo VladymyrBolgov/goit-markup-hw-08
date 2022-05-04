@@ -344,37 +344,6 @@ img {
   background-color: var(--color-box-button);
 }
 
-.logo {
-  color: var(--accent-color);
-  font-family: Raleway, cursive;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.17;
-  text-decoration: none;
-  text-transform: none;
-  letter-spacing: 0.03em;
-}
-
-.logo__color {
-  color: var(--color-logo);
-}
-
-.header {
-  position: relative;
-}
-
-.header__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 /*Мобильное меню кнопка*/
 .mobile-menu-btn {
   border: none;
@@ -394,20 +363,6 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .header__container {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  .nav-list {
-    display: none;
-  }
-
-  .contact {
-    display: none;
-    color: var(--primary-text-color);
-  }
-
   /*Мобильное меню*/
   .mobile-menu {
     position: fixed;
@@ -532,7 +487,54 @@ img {
   .mobile-menu-btn {
     display: none;
   }
+}
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0.03em;
+}
 
+.logo__color {
+  color: var(--color-logo);
+}
+
+.header {
+  position: relative;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .header__container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .contact {
+    display: none;
+    color: var(--primary-text-color);
+  }
+}
+@media screen and (min-width: 768px) {
   .contact {
     display: block;
   }
