@@ -22,7 +22,7 @@
     justify-content: space-between;
     align-items: center;
 }
-/*Мобильное меню*/
+/*Мобильное меню кнопка*/
 .mobile-menu-btn{
     border: none;
     background-color: transparent;
@@ -38,25 +38,11 @@
    fill: var(--accent-color);
 }
 
-/*.contact__link,
-.contact__link {
-    display: flex;
-    align-items: center;
-&:hover,
-&:focus {
-    color: var(--accent-color); 
-}
-}*/
-/*.contact__icon:hover,
-.contact__icon:focus{
-    fill: currentcolor;
-}*/
-
 // 0px-768px
 @media screen and (max-width: 767px) {
    .header__container{
-      padding-top: 15px;
-       padding-bottom: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
    }
     .nav-list{
         display: none; 
