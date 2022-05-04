@@ -1304,6 +1304,7 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-top: 30px;
   }
 
   .team-list__item {
@@ -1350,6 +1351,7 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    margin-top: 50px;
   }
 
   .team-list__item {
