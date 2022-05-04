@@ -21,6 +21,10 @@
     justify-content: space-between;
     align-items: center;
 }
+.contact__item{
+   display: flex;
+   align-items: center;
+}
 
 // 0px-768px
 @media screen and (max-width: 767px) {

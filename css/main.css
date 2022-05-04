@@ -519,6 +519,15 @@ img {
           align-items: center;
 }
 
+.contact__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 @media screen and (max-width: 767px) {
   .header__container {
     padding-top: 10px;
@@ -838,6 +847,11 @@ img {
   padding: 10px 32px;
   border: transparent;
   text-align: center;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
 }
 .box__button:hover, .box__button:focus {
   background-color: var(--color-box-button);
@@ -851,6 +865,7 @@ img {
 
   .box__title {
     font-size: 26px;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 768px) and (min-device-pixel-ratio: 2), screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 768px) and (min-resolution: 192dpi), screen and (max-width: 768px) and (min-resolution: 2dppx) {
