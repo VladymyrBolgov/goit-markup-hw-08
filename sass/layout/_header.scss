@@ -58,7 +58,7 @@
         top: 0;
         left: 0;
         background-color: #ffffff;
-        width: 100%;
+        width: 480px;
         height: 795px;
         overflow: auto;
         opacity: 0;
@@ -79,7 +79,7 @@
     }
     .mobile-menu__close-btn{
         position: absolute;
-        top:10px;
+        top: 10px;
         right: 15px;
         border: none;
         background-color: transparent;  
@@ -106,10 +106,10 @@
       }
     }
     .mobile-menu__list >li{
-      margin-top: 32px;
+      margin-bottom: 32px;
     }
    .mobile-menu__list{
-      margin-bottom: 300px;
+      margin-bottom: 302px;
     }
     .mobile-menu__contact-link--phone{
       font-weight: 500;

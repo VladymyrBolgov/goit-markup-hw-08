@@ -389,7 +389,7 @@ img {
           align-items: center;
 }
 
-/*Мобильное меню*/
+/*Мобильное меню кнопка*/
 .mobile-menu-btn {
   border: none;
   background-color: transparent;
@@ -407,19 +407,6 @@ img {
   fill: var(--accent-color);
 }
 
-/*.contact__link,
-.contact__link {
-    display: flex;
-    align-items: center;
-&:hover,
-&:focus {
-    color: var(--accent-color); 
-}
-}*/
-/*.contact__icon:hover,
-.contact__icon:focus{
-    fill: currentcolor;
-}*/
 @media screen and (max-width: 767px) {
   .header__container {
     padding-top: 10px;
@@ -442,7 +429,7 @@ img {
     top: 0;
     left: 0;
     background-color: #ffffff;
-    width: 100%;
+    width: 480px;
     height: 795px;
     overflow: auto;
     opacity: 0;
@@ -492,11 +479,11 @@ img {
   }
 
   .mobile-menu__list > li {
-    margin-top: 32px;
+    margin-bottom: 32px;
   }
 
   .mobile-menu__list {
-    margin-bottom: 300px;
+    margin-bottom: 302px;
   }
 
   .mobile-menu__contact-link--phone {
