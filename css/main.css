@@ -114,7 +114,7 @@ img {
     width: 451px;
   }
 }
-@media screen and (min-width: 120px) {
+@media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
   }
