@@ -164,15 +164,14 @@
     .footer-social{
         margin-top: 60px;
     }
-   /* .footer{
+    .footer{
         min-height: 620px;
     }
     .footer__container {
         display: flex;
     }
     .footer__contacts {
-        display: flex;
-        flex-direction: column;
+       
         align-items: center;
         flex-grow: 0;
         margin-bottom: 60px;
@@ -180,9 +179,7 @@
     .address__list {
         align-items: center;
     }
-    .footer-social{
-        margin-bottom: 60px;  
-    }*/
+    
 }
 
 @media screen and (min-width: 768px) {
