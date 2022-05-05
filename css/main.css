@@ -1706,6 +1706,22 @@ img {
         -ms-flex-align: baseline;
             align-items: baseline;
   }
+
+  .footer__container {
+    text-align: left;
+  }
+
+  .footer__contacts {
+    text-align: left;
+  }
+
+  .footer-social {
+    text-align: left;
+  }
+
+  .subscribe__form {
+    text-align: left;
+  }
 }
 /*filter-list*/
 .filter-list {
