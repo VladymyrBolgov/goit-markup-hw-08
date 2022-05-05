@@ -1378,7 +1378,6 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin: 0;
   }
 
   .clients-list__link {
