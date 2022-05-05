@@ -1644,7 +1644,7 @@ img {
     margin-left: 70px;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .footer-social {
     display: -webkit-box;
     display: -ms-flexbox;
