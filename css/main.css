@@ -501,7 +501,7 @@ img {
 }
 
 .header {
-  position: relative;
+  /* position: relative;*/
 }
 
 .header__container {
