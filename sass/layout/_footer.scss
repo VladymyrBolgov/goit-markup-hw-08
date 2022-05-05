@@ -197,6 +197,19 @@
     .footer-social{
         margin-left: 70px;
     }
+    .subscribe__label{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subscribe__input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .subscribe__button {
+       /* margin: 0;*/
+       margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -204,7 +217,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-       
        margin-left: 0 auto;
        margin-right: 0 auto;
     }
@@ -225,7 +237,7 @@
     }
     .subscribe__button {
        /* margin: 0;*/
-       margin: auto;
+       margin: 0 auto;
     }
 }
 @media screen and (min-width: 1200px) {
@@ -236,4 +248,5 @@
         display: flex;
         align-items: baseline;
     }
+    
 }
