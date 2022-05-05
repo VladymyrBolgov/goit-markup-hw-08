@@ -1,8 +1,12 @@
         .box {
-            display: flex;
+            /*display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
+            align-items: center;*/
+
+            padding-top: 118px;
+            padding-bottom: 118px;
+
             text-align: center;
             background-image: linear-gradient(  rgba(47, 48, 58, 0.4),
              rgba(47, 48, 58, 0.4)),
@@ -28,7 +32,7 @@
             letter-spacing: 0.06em;
         }    
         .box__button {
-            display: flex;
+           /*display: flex;*/
             color: var(--primary-color-white);
             background-color: var(--accent-color);
             font-family: Roboto,
@@ -56,6 +60,9 @@
   // 0px-768px
   @media screen and (max-width: 768px) {
         .box{
+            padding-top: 118px;
+            padding-bottom: 118px;
+
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)), url(.././images/img/hero/progressive-jpeg/hero-bg-mob_480x400-progressive.jpeg); 
         }
@@ -80,6 +87,9 @@
             width: 360px;
         }
         .box{
+            padding-top: 118px;
+            padding-bottom: 118px;
+
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)), url(.././images/img/hero/progressive-jpeg/hero-bg-tab_768x400-progressive.jpeg);
         }
@@ -98,6 +108,9 @@
             width: 696px;
         }
         .box{
+            padding-top: 118px;
+            padding-bottom: 118px;
+
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)), url(.././images/img/hero/progressive-jpeg/hero-bg-lap_1600x600-progressive.jpeg);
         }
