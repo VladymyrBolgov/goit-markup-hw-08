@@ -1644,22 +1644,14 @@ img {
   }
 }
 @media screen and (max-width: 1199px) {
-  .footer-social {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    margin-top: 60px;
-  }
-
+  /* .footer-social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       margin-left: 0 auto;
+       margin-right: 0 auto;
+       margin-top: 60px;
+    }*/
   .subscribe__label {
     width: 100%;
     -webkit-box-orient: vertical;
@@ -1677,7 +1669,6 @@ img {
   }
 
   .subscribe__button {
-    /* margin: 0;*/
     margin: 0 auto;
   }
 }
