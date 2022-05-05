@@ -1232,6 +1232,7 @@ img {
   }
 
   .team-list__item {
+    margin: 0;
     max-width: 270px;
   }
 
