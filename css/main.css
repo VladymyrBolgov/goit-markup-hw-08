@@ -1610,10 +1610,6 @@ img {
             align-items: center;
   }
 
-  .footer-social {
-    margin-bottom: 60px;
-  }
-
   .footer-title {
     text-align: center;
   }
@@ -1641,10 +1637,6 @@ img {
 
   .footer {
     min-height: 480px;
-  }
-
-  .footer-social {
-    margin-left: 70px;
   }
 }
 @media screen and (max-width: 1199px) {
