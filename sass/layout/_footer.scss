@@ -123,8 +123,6 @@
     position: relative;
     display: flex;
     width: 570px;
-
-    height: 50px;
     fill: #ffffff;
 }
 .subscribe__button{
@@ -190,6 +188,8 @@
     .footer__container {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
     }
     .footer {
         min-height: 480px;
