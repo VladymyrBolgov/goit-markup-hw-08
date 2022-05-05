@@ -56,13 +56,11 @@ img {
 
 .container {
   width: 1200px;
-  padding: 0 15px;
+  /* padding: 0 15px;*/
   margin: 0 auto;
-}
-@media screen and (max-width: 480px) {
-  .container {
-    width: 100%;
-  }
+  /* @media screen and (max-width: 480px) {
+       width: 100%;
+   }*/
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -797,10 +795,6 @@ img {
   }
 }
 .box {
-  /*display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;*/
   padding-top: 118px;
   padding-bottom: 118px;
   text-align: center;
@@ -811,9 +805,7 @@ img {
   background-size: cover;
   background-color: #2F303A;
   max-width: 1600px;
-  /*height: 600px;*/
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 .box__title {
@@ -857,7 +849,7 @@ img {
   background-color: var(--color-box-button);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .box {
     padding-top: 118px;
     padding-bottom: 118px;
@@ -871,10 +863,10 @@ img {
     width: 360px;
     text-align: center;
     margin: auto;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
 }
-@media screen and (max-width: 768px) and (min-device-pixel-ratio: 2), screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 768px) and (min-resolution: 192dpi), screen and (max-width: 768px) and (min-resolution: 2dppx) {
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
   .box {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(.././images/img/hero/progressive-jpeg/hero-bg-mob_960x800@2x-progressive.jpeg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(.././images/img/hero/progressive-jpeg/hero-bg-mob_960x800@2x-progressive.jpeg);
@@ -886,7 +878,7 @@ img {
     line-height: 1.62;
     width: 360px;
     margin: auto;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
 
   .box {
@@ -908,7 +900,7 @@ img {
     line-height: 1.62;
     width: 696px;
     margin: auto;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
 
   .box {
@@ -1671,28 +1663,6 @@ img {
   .footer-social {
     margin-left: 70px;
   }
-}
-@media screen and (max-width: 1200px) {
-  .footer-social {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 0;
-  }
-
-  .footer__subscribe {
-    width: 450px;
-    margin: 0;
-    text-align: center;
-    margin: 60px auto 0;
-  }
 
   .subscribe__label {
     width: 100%;
@@ -1711,14 +1681,53 @@ img {
   }
 
   .subscribe__button {
-    margin: 0;
+    /* margin: 0;*/
+    margin: 0 auto;
   }
 }
-/*@media screen and (max-width: 540px) {
-    .footer__subscribe {
-        width: 290px;
-    }
-}*/
+@media screen and (max-width: 1200px) {
+  .footer-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+  }
+
+  /* .footer__subscribe{
+        width: 450px;
+       margin: 0;
+        text-align: center;
+        margin: 60px auto 0;
+    }*/
+  .subscribe__label {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .subscribe__input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .subscribe__button {
+    /* margin: 0;*/
+    margin: auto;
+  }
+}
 @media screen and (min-width: 1200px) {
   .footer {
     min-height: 260px;
