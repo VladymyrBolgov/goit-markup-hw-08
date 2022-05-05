@@ -72,6 +72,7 @@
             line-height: 1.62;
             width: 360px;
             text-align: center;
+            margin: auto;
         }
         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
             .box {
@@ -86,11 +87,13 @@
             font-size: 26px;
             line-height: 1.62;
             width: 360px;
+            margin: auto;
             
         }
         .box{
             padding-top: 118px;
             padding-bottom: 118px;
+            
             
 
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),
@@ -109,6 +112,7 @@
             font-size: 44px;
             line-height: 1.62;
             width: 696px;
+            margin: auto;
         }
         .box{
             padding-top: 200px;
