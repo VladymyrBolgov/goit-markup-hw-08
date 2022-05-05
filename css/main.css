@@ -1621,6 +1621,14 @@ img {
   .footer__container {
     text-align: center;
   }
+
+  .footer__contacts {
+    text-align: center;
+  }
+
+  .ooter-social {
+    text-align: center;
+  }
 }
 @media screen and (min-width: 768px) {
   .footer__container {
