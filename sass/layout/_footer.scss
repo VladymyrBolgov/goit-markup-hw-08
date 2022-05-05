@@ -10,7 +10,6 @@
 .footer__contacts {
     flex-grow: 1;
 }
-
 /* Address  */
 .address{
     margin-top: 20px;
@@ -53,9 +52,7 @@
     text-transform: none;
     letter-spacing: 0.03em;
 }
-
 /*footer-social*/
-
 .footer-social{
     margin-left: 70px;
 }
@@ -95,7 +92,6 @@
 .footer-social-list__icon{
     fill: var(--primary-color-white);
 }
-
 /*subscribe*/
 .footer__subscribe{
     margin-left: 93px;
@@ -130,7 +126,6 @@
     align-items: center;
     text-align: center;
     justify-content: space-evenly;
-
     font-family: Roboto,
     sans-serif;
     font-style: normal;
@@ -159,28 +154,9 @@
     fill: var(--primary-color-white);
 }
 
-
 @media screen and (max-width: 767px) {
     .footer-social{
         margin-top: 60px;
-    }
-    .footer{
-        min-height: 620px;
-    }
-    .footer__contacts {
-        margin-bottom: 60px;
-    }
-    .address__list {
-        align-items: center;
-    }
-    .footer-title{
-        text-align: center;
-    }
-    .subscribe__title{
-        text-align: center;
-    }
-    .footer__container{
-        text-align: center;
     }
     .footer__contacts{
         text-align: center;

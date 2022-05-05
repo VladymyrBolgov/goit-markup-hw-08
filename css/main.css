@@ -1593,32 +1593,6 @@ img {
     margin-top: 60px;
   }
 
-  .footer {
-    min-height: 620px;
-  }
-
-  .footer__contacts {
-    margin-bottom: 60px;
-  }
-
-  .address__list {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-
-  .footer-title {
-    text-align: center;
-  }
-
-  .subscribe__title {
-    text-align: center;
-  }
-
-  .footer__container {
-    text-align: center;
-  }
-
   .footer__contacts {
     text-align: center;
   }
