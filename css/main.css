@@ -873,6 +873,7 @@ img {
   .box__title {
     font-size: 26px;
     line-height: 1.62;
+    width: 360px;
     text-align: center;
   }
 }
@@ -886,6 +887,7 @@ img {
   .box__title {
     font-size: 26px;
     line-height: 1.62;
+    width: 360px;
   }
 
   .box {
@@ -903,6 +905,7 @@ img {
   .box__title {
     font-size: 44px;
     line-height: 1.62;
+    width: 696px;
   }
 
   .box {
