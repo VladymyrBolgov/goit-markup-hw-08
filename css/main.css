@@ -1701,12 +1701,6 @@ img {
     margin-right: 0 auto;
   }
 
-  /* .footer__subscribe{
-        width: 450px;
-       margin: 0;
-        text-align: center;
-        margin: 60px auto 0;
-    }*/
   .subscribe__label {
     width: 100%;
     -webkit-box-orient: vertical;
@@ -1724,7 +1718,6 @@ img {
   }
 
   .subscribe__button {
-    /* margin: 0;*/
     margin: auto;
   }
 }
