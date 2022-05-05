@@ -160,13 +160,15 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+    .footer-social{
+        margin-top: 60px;
+    }
     .footer{
         min-height: 620px;
     }
     .footer__container {
         display: flex;
-        
     }
     .footer__contacts {
         display: flex;
@@ -186,7 +188,6 @@
 @media screen and (min-width: 768px) {
     .footer__container {
         display: flex;
-       
         justify-content: space-around;
         text-align: center;
     }
@@ -205,6 +206,7 @@
         align-items: center;
        margin-left: 0 auto;
        margin-right: 0 auto;
+       margin-top: 60px;
     }
   /* .footer__subscribe{
         width: 450px;
