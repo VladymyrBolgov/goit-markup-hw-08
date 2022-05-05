@@ -1596,7 +1596,7 @@ img {
   fill: var(--primary-color-white);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer {
     min-height: 620px;
   }
