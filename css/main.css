@@ -1598,9 +1598,6 @@ img {
   }
 
   .footer__contacts {
-    -webkit-box-flex: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
     margin-bottom: 60px;
   }
 
@@ -1635,22 +1632,13 @@ img {
   }
 }
 @media screen and (min-width: 768px) {
-  .footer__container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    text-align: center;
-  }
-
+  /* .footer__container {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-around;
+       text-align: center;
+   }*/
   .footer {
     min-height: 480px;
   }
