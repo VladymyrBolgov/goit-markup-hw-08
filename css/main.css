@@ -1607,6 +1607,56 @@ img {
     text-align: center;
   }
 }
+/* Стилизация подвала для десктопа */
+@media screen and (min-width: 1200px) {
+  .address {
+    margin-bottom: 0;
+  }
+
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+
+  .footer__contacts {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    margin-right: 70px;
+  }
+
+  .footer-title {
+    text-align: left;
+  }
+
+  .footer-social-list {
+    margin-bottom: 0;
+  }
+
+  .subscribe__form {
+    display: block;
+    width: 570px;
+    margin-left: 93px;
+  }
+
+  .subscribe__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .subscribe__input {
+    margin-right: 12px;
+    margin-bottom: 0;
+  }
+}
 /*filter-list*/
 .filter-list {
   display: -webkit-box;

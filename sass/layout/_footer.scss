@@ -194,4 +194,45 @@
         text-align: center;
     }
     }
+
+   /* Стилизация подвала для десктопа */
+
+@media screen and (min-width:1200px) {
+
+    .address {
+            margin-bottom: 0;
+        }
     
+    .footer__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    
+    .footer__contacts {
+        flex-grow: 1;
+        margin-right: 70px;
+    }
+    .footer-title {
+        text-align: left;
+    }
+    
+    .footer-social-list {
+        margin-bottom: 0;
+    }
+    
+    .subscribe__form {
+        display: block;
+        width: 570px;
+        margin-left: 93px;
+    }
+    
+    .subscribe__block {
+        display: flex;
+    }
+    
+    .subscribe__input {
+    margin-right: 12px;
+    margin-bottom: 0;
+    }
+    } 
