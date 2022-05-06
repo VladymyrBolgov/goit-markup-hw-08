@@ -1207,7 +1207,7 @@ img {
   .team-list {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    /* margin: -15px;*/
+    margin: -15px;
   }
 
   .team-list__item {
@@ -1239,9 +1239,9 @@ img {
     max-width: 270px;
   }
 
-  .team-list__item + .team-list__item {
-    margin-left: 30px;
-  }
+  /*.team-list__item + .team-list__item {
+      margin-left: 30px;
+  }*/
 }
 .social-list__link {
   display: -webkit-box;
