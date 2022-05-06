@@ -1418,6 +1418,7 @@ img {
   text-decoration: none;
   text-transform: none;
   letter-spacing: 0.03em;
+  display: block;
 }
 
 .footer-color {
