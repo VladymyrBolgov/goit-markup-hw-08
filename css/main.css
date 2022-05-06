@@ -1581,6 +1581,32 @@ img {
   fill: var(--primary-color-white);
 }
 
+@media screen and (min-width: 768px) {
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+
+  .subscribe__input {
+    width: 450px;
+  }
+
+  .subscribe__form {
+    margin-top: 60px;
+  }
+
+  .subscribe__form {
+    text-align: center;
+  }
+}
 /*filter-list*/
 .filter-list {
   display: -webkit-box;
