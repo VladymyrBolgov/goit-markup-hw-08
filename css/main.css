@@ -1471,17 +1471,16 @@ img {
   letter-spacing: 0.03em;
 }
 
-.footer-title {
-  color: var(--primary-color-white);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.17;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-
+/*.footer-title{
+    color: var(--primary-color-white);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    text-align: center;
+}*/
 .footer-social-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1612,6 +1611,10 @@ img {
 
   .subscribe__form {
     margin-top: 60px;
+    text-align: center;
+  }
+
+  .subscribe__title {
     text-align: center;
   }
 }
