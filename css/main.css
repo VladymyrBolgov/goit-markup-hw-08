@@ -917,7 +917,7 @@ img {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(.././images/img/hero/progressive-jpeg/hero-bg-lap_1600x600@2x-progressive.jpeg);
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .benefits-list .benefits-list__item:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -1239,9 +1239,9 @@ img {
     max-width: 270px;
   }
 
-  /*.team-list__item + .team-list__item {
-      margin-left: 30px;
-  }*/
+  .team-list__item + .team-list__item {
+    margin-left: 30px;
+  }
 }
 .social-list__link {
   display: -webkit-box;

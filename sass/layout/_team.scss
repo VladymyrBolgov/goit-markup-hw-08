@@ -58,7 +58,6 @@
     }
     .team-list__item + .team-list__item{
         margin-top: 30px;
-    
     }
     .section__title{
         color: var(--title-text-color);
@@ -99,9 +98,9 @@
             margin: 0;
             max-width: 270px;
         }
-        /*.team-list__item + .team-list__item {
+        .team-list__item + .team-list__item {
             margin-left: 30px;
-        }*/
+        }
     } 
     .social-list__link{
         display: flex;
