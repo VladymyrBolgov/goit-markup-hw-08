@@ -21,17 +21,7 @@
     }
     .subscribe__form{
         text-align: center;
-    }
-    
-}
-.address{
-    margin-top: 20px;
-    font-style: normal;
-    line-height: 1.71;
-    
-}
-.address__item:not(:last-child) {
-    margin-bottom: 8px;
+    } 
 }
 .footer__logo {
     color: var(--accent-color);
@@ -46,7 +36,14 @@
 .footer-color {
     color: var(--primary-color-white);
 }
-
+.address{
+    margin-top: 20px;
+    font-style: normal;
+    line-height: 1.71; 
+}
+.address__item:not(:last-child) {
+    margin-bottom: 8px;
+}
 .footer__link {
     display: block;
     color: var(--color-footer-contact);
