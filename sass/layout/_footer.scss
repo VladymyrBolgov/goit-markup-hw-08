@@ -45,7 +45,7 @@
     color: var(--primary-color-white);
 }
 .footer__address{
-    color: var(--primary-color-white);
+    color: #FFFFFF;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -56,17 +56,25 @@
 .footer__link {
     display: block;
     color: var(--color-footer-contact);
+
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
+    color: rgba(255, 255, 255, 0.6);
+
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
     text-transform: none;
     letter-spacing: 0.03em;
+    text-align: center;
 
     &:hover,
     &:focus {
         color: var(--accent-color);
     }
+
     @media screen and (min-width:1200px) {
         text-align: left;
     }
