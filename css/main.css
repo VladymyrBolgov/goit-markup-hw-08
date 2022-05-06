@@ -1122,7 +1122,6 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /* margin-top: 50px;*/
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1234,11 +1233,10 @@ img {
     margin-bottom: 50px;
   }
 
-  .team-list__item {
-    margin: 0;
-    max-width: 270px;
-  }
-
+  /*  .team-list__item {
+        margin: 0;
+        max-width: 270px;
+    }*/
   .team-list__item + .team-list__item {
     margin-left: 30px;
   }
