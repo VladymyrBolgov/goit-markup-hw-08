@@ -286,7 +286,7 @@ img {
 }
 
 .checkbox__span {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -294,7 +294,7 @@ img {
 }
 
 .modal__link {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--accent-color);
