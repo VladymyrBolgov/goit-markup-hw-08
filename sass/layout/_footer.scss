@@ -32,7 +32,8 @@
     text-decoration: none;
     text-transform: none;
     letter-spacing: 0.03em;
-    
+    display: block;
+    text-align: center;
 }
 .footer-color {
     color: var(--primary-color-white);
@@ -80,16 +81,7 @@
     text-transform: none;
     letter-spacing: 0.03em;
 }
-/*.footer-title{
-    color: var(--primary-color-white);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.17;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    text-align: center;
-}*/
+
 .footer-social-list{
     display: flex; 
     justify-content: center; 
@@ -217,17 +209,16 @@
     }
     }
    
-
    /* Стилизация подвала для десктопа */
 
 @media screen and (min-width:1200px) {
+ 
     .footer__logo{
         text-align: left;
     }
     .address {
             margin-bottom: 0;
         }
-
     .footer__container {
         display: flex;
         justify-content: space-between;

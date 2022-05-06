@@ -1418,6 +1418,8 @@ img {
   text-decoration: none;
   text-transform: none;
   letter-spacing: 0.03em;
+  display: block;
+  text-align: center;
 }
 
 .footer-color {
@@ -1471,16 +1473,6 @@ img {
   letter-spacing: 0.03em;
 }
 
-/*.footer-title{
-    color: var(--primary-color-white);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.17;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    text-align: center;
-}*/
 .footer-social-list {
   display: -webkit-box;
   display: -ms-flexbox;
