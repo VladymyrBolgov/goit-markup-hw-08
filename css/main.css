@@ -1210,10 +1210,12 @@ img {
     /* margin: -15px;*/
   }
 
-  /*.team-list__item{
-      margin: 15px;
-      flex-basis: calc((100% - 4*15px) / 2);
-  }*/
+  .team-list__item {
+    margin: 15px;
+    -ms-flex-preferred-size: calc((100% - 60px) / 2);
+        flex-basis: calc((100% - 60px) / 2);
+  }
+
   .section__title {
     margin-bottom: 30px;
   }
