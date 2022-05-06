@@ -1617,8 +1617,7 @@ img {
   .subscribe__title {
     text-align: center;
   }
-}
-@media screen and (max-width: 1199px) {
+
   .footer__logo {
     color: var(--accent-color);
     font-family: Raleway;
@@ -1634,6 +1633,10 @@ img {
 }
 /* Стилизация подвала для десктопа */
 @media screen and (min-width: 1200px) {
+  .footer__logo {
+    text-align: left;
+  }
+
   .address {
     margin-bottom: 0;
   }
