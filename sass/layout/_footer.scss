@@ -32,8 +32,7 @@
     text-decoration: none;
     text-transform: none;
     letter-spacing: 0.03em;
-    display: block;
-    text-align: center;
+    
 }
 .footer-color {
     color: var(--primary-color-white);
@@ -204,6 +203,21 @@
     .subscribe__title{
         text-align: center;
     }
+
+    }
+    @media screen and (max-width:1199px){
+        .footer__logo {
+            color: var(--accent-color);
+            font-family: Raleway;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.17;
+            text-decoration: none;
+            text-transform: none;
+            letter-spacing: 0.03em;
+            display: block;
+            text-align: center;
+        }
     }
 
    /* Стилизация подвала для десктопа */
