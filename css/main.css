@@ -1477,6 +1477,7 @@ img {
   line-height: 1.17;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .footer-social-list {
