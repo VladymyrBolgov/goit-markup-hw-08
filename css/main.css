@@ -1637,6 +1637,10 @@ img {
     margin-right: 70px;
   }
 
+  .subscribe__title {
+    text-align: left;
+  }
+
   .footer-social-list {
     margin-bottom: 0;
   }

@@ -193,6 +193,7 @@
         align-items: baseline;
         justify-content: space-around;
     }
+  
     .subscribe__input {
         width: 450px;
     }
@@ -222,7 +223,9 @@
         flex-grow: 1;
         margin-right: 70px;
     }
-   
+    .subscribe__title {
+        text-align: left;
+    }
     
     .footer-social-list {
         margin-bottom: 0;
